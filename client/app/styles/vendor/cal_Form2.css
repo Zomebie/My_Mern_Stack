@@ -1,0 +1,35 @@
+.form2s{
+    font-weight: bold;
+    color: rgb(83, 82, 82);
+}
+
+.form2s input{
+    color:#179588;
+    text-align: center;
+    font-size: 40px;
+    height:60px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid whitesmoke;
+    
+    display: inline-block;
+    width: 15%;
+    outline: none;
+    background-color: rgba( 255, 255, 255, 0);
+
+}
+
+.form2s input::placeholder{
+    color: rgb(83, 82, 82);
+    opacity: 1;
+}
+
+
+.form2s input:hover{
+
+    color:rgb(83, 82, 82);
+    opacity: 0.4;
+}
+
+

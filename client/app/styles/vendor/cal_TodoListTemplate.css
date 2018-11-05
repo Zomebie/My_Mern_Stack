@@ -1,0 +1,71 @@
+.todo-list-templates{
+    
+    position: absolute;
+    top:20%;
+    left:38%;
+    user-select: none;
+ 
+}
+
+.restOfBodys{
+    background-color: rgba( 255, 255, 255, 0.5 );
+    width:500px;
+    height: 360px;
+    box-shadow: 0px 0px 0px rgba(0,0,1,0.16), 1px 1px 0.5px rgba(0,0,0,0.23);
+    margin: 0 auto;
+    margin-top: 1rem;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border-radius: 40px;
+}
+
+.titles{
+    
+    font-weight: bolder;
+    padding-top: 10%;
+    font-size:40px;
+    text-align: center;
+    color: whitesmoke;
+    cursor: default;
+   
+}
+
+.titles:hover{
+    color: #179588; 
+}
+
+.form-wrappers{
+    
+    position: relative;
+    display:flex;
+    justify-content: center;
+
+   
+}
+
+.checkbox-wrappers{
+    
+    display:flex;
+    justify-content: center;
+    padding-top:10%;
+    
+}
+
+.form2-wrappers{
+    font-size:50px;
+    padding-top:4%;
+    text-align: center;
+    
+}
+
+.button-wrappers{
+    position: relative;
+    top:15px;
+}
+
+.Copys{
+    color:gray;
+    font-size: 15px;
+    position: relative;
+    top:30px;
+    text-align: center;
+}

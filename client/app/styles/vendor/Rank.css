@@ -1,0 +1,31 @@
+.rankMain {
+  background:  #424242;
+  width: 100%;
+  box-shadow: 0 4px 5px rgba(2,2,2,2.16), 0 3px 10px rgba(2,2,2,2.23); /* 그림자 */
+  text-align: center;
+
+  margin-left: 4rem;
+  margin-top: 5rem;
+
+
+}
+
+.rankLogo {
+    animation: rank-logo-move 2s linear 1s infinite alternate;
+    height: 19vmin;
+
+  }
+  @keyframes rank-logo-move {
+    0%   {opacity: 0; }
+
+    100% {opacity: 1.0; }
+
+}
+.title {
+  padding: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 100;
+  background: #424242;
+  color: white;
+}

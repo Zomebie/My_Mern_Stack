@@ -1,0 +1,33 @@
+.todo-list-template {
+  background:  #424242;
+  width: 100%;
+  box-shadow: 0 4px 5px rgba(2,2,2,2.16), 0 3px 10px rgba(2,2,2,2.23); /* 그림자 */
+  margin-left: 2rem;
+  margin-top: 5rem;
+  text-align: center;
+
+
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 20vmin;
+
+  }
+  @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.title {
+
+  padding: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 100;
+  background: #424242;
+  color: white;
+}

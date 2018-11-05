@@ -1,0 +1,22 @@
+.App-logo {
+    
+    animation-name: App-logo-spin;
+    animation-duration:3s;
+    animation-delay: 0ms;
+    
+    position: absolute;
+    
+    left:0;
+  }
+  
+@keyframes App-logo-spin {
+    from {
+        transform: translate(0,500px);
+        opacity: 0;
+    }
+    to {
+      transform: translate(0,700px);
+      opacity: 100;
+    }
+  }
+  

@@ -1,0 +1,116 @@
+.todo-items{
+    display: flex;
+    font-size: 18px;
+    font-weight: bolder;
+    color:#5f5e5e;
+    padding-bottom: 18px;
+}
+
+.todo-items span{
+  width:100px;
+  
+}
+
+input[type="checkbox"]{
+    display:none;
+}
+
+label[class="lbl"]{
+    margin-right: 15px; 
+    margin-left: 25px;
+    bottom:0px;
+}
+
+
+.lbl {
+    display: block;
+    position: relative;
+    height: 35px;
+    width: 80px;
+    background: #adadad;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+  }
+
+  .lbl:hover {
+    background: #6fbeb5;
+  }
+
+.lbl span{
+    position: absolute;
+    left:37px;
+    top: 6px;
+    
+}
+
+.lbl:after {
+ 
+    position: absolute;
+    left: -2px;
+  
+    width:  35px;
+    height: 35px;
+    border-radius: 100px;
+    background: #fff;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
+    content: '';
+    transition: all 0.3s ease;
+    
+  }
+
+.lbl:active:after { transform: scale(1.15, 0.85); }
+
+
+/*cb1*/
+input[id="cb1"]:checked ~ label[for="cb1"] { background: #6fbeb5; }
+input[id="cb1"]:checked ~ label[for="cb1"]:after {
+    left: 38px;
+    
+  }
+  
+input[id="cb1"]:disabled ~ label[for="cb1"]  {
+    background: #d5d5d5;
+    pointer-events: none;
+  }
+input[id="cb1"]:disabled ~ label[for="cb1"] after { background: #bcbdbc; }
+
+/*cb2*/
+input[id="cb2"]:checked ~ label[for="cb2"] { background: #6fbeb5; }
+input[id="cb2"]:checked ~ label[for="cb2"]:after {
+    left: 38px;
+ 
+  }
+  
+input[id="cb2"]:disabled ~ label[for="cb2"]  {
+    background: #d5d5d5;
+    pointer-events: none;
+  }
+input[id="cb2"]:disabled ~ label[for="cb2"] after { background: #bcbdbc; }
+
+/*cb3*/
+input[id="cb3"]:checked ~ label[for="cb3"] { background: #6fbeb5; }
+input[id="cb3"]:checked ~ label[for="cb3"]:after {
+    left: 38px;
+   
+  }
+  
+input[id="cb3"]:disabled ~ label[for="cb3"]  {
+    background: #d5d5d5;
+    pointer-events: none;
+  }
+input[id="cb3"]:disabled ~ label[for="cb3"] after { background: #bcbdbc; }
+
+/*cb4*/
+input[id="cb4"]:checked ~ label[for="cb4"] { background: #6fbeb5; }
+input[id="cb4"]:checked ~ label[for="cb4"]:after {
+    left: 38px;
+ 
+  }
+  
+input[id="cb4"]:disabled ~ label[for="cb4"]  {
+    background: #d5d5d5;
+    pointer-events: none;
+  }
+input[id="cb4"]:disabled ~ label[for="cb4"] after { background: #bcbdbc; }
